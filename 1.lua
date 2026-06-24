@@ -109,7 +109,7 @@ pcall(function()
     end
     if not _G._BYPASS_MSG_SHOWN then
         _G._BYPASS_MSG_SHOWN = true
-        ShowSuccessMessage("@AKOIJAMOP", "✓ COMPLETE BYPASS ACTIVE\n✓ 100% Telemetry Killed\n✓ 8-LAYER ANTI-CHEAT BYPASSED\n✓ Play Safe | Enjoy")
+        ShowSuccessMessage("@GOCREAL", "✓ COMPLETE BYPASS ACTIVE\n✓ 100% Telemetry Killed\n✓ 8-LAYER ANTI-CHEAT BYPASSED\n✓ Play Safe | Enjoy")
     end
 end)
 
@@ -1403,7 +1403,7 @@ local function ESPTick()
 
     if not crowded and HUD and currentPawn then
         HUD:AddDebugText(string.format("BOT : %d     PLAYER : %d", botCount, playerCount), currentPawn, 1, {X=0,Y=0,Z=155}, {X=0,Y=0,Z=155}, {R=255,G=255,B=0,A=255}, true, false, true, nil, 1.0, true)
-        HUD:AddDebugText("TELEGRAM  - @AKOIJAMOP", currentPawn, 1, {X=0,Y=0,Z=145}, {X=0,Y=0,Z=145}, {R=0,G=200,B=255,A=255}, true, false, true, nil, 1.0, true)
+        HUD:AddDebugText("TELEGRAM  - @GOCREAL", currentPawn, 1, {X=0,Y=0,Z=145}, {X=0,Y=0,Z=145}, {R=0,G=200,B=255,A=255}, true, false, true, nil, 1.0, true)
     end
 end
 
